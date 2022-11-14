@@ -1,0 +1,13 @@
+#Colour Palette 
+The colour palette will be pre-generated on a website called colors.co. 
+I'm very bad with design and colour.
+
+#4281A4
+#D6EDFF
+#242038
+#1E152A
+
+############	FONTS	############
+
+
+ 
