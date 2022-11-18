@@ -61,7 +61,7 @@ body {
   
   
   .content {
-    display: inline-block;
+    display: flex;
     flex-direction: row;
     text-shadow: 2px 2px 5px black;
     color: white;
@@ -79,7 +79,7 @@ body {
     background: linear-gradient(358deg, #393E46, #315a89);
     border-radius: 30px;
     width: auto;
-    /* text-align: center; */
+    text-align: center;
   }
   
   .content p, h3 {
