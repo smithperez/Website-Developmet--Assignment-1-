@@ -1,37 +1,57 @@
 body {
-    font-family: "Fragment Mono", monospace;
-    /* background-color: #4281a4; */
-    background: linear-gradient(to right, #4281a4, #242038);
-    word-wrap: break-word;
-    margin: 0 0 0 0;
-    height: 100%;
-  }
-  
+  font-family: "Fragment Mono", monospace;
+  /* background-color: #4281a4; */
+  background: linear-gradient(to right, #4281a4, #242038);
+  word-wrap: break-word;
+  margin: 0 0 0 0;
+  height: 100%;
+}
+
+/* Keep Footer at the bottom */
+html, body {
+  height: 100%;
+}
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  background: linear-gradient(to top left, #343a63, rgb(31, 31, 71), rgb(41, 43, 50));
+  text-shadow: 2px 2px 5px black;
+  color: white;
+}
+
+img {
+  width: 50px; /* you can use % */
+  height: auto;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+
+footer {
+  color: white;
+  background-color: #242038;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
   
   /* Keep Footer at the bottom */
-  html, body {
-    height: 100%;
-  }
-  #wrap {
-    min-height: 100%;
-    
-  }
-  #main {
-    overflow:auto;
-    padding-bottom: 140px;
-  } 
+  margin-top: -140px;
+  height: 140px;
+  position: relative;
+  clear: both; 
+}
+
+#wrap {
+  min-height: 100%;
   
+}
+#main {
+  overflow:auto;
+  padding-bottom: 140px;
+} 
   
-  
-  header {
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    background: linear-gradient(to top left, #343a63, rgb(31, 31, 71), rgb(41, 43, 50));
-    text-shadow: 2px 2px 5px black;
-    color: white;
-  }
   
   #title {
     text-align: inherit;
@@ -88,24 +108,12 @@ body {
   }
   
   .content h3 {
+    display: inherit;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
   }
   
-  footer {
-    color: white;
-    background-color: #242038;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    
-    /* Keep Footer at the bottom */
-    margin-top: -140px;
-    height: 140px;
-    position: relative;
-    clear: both; 
-  }
   
   .footer-nav a {
     color: white;
@@ -116,12 +124,6 @@ body {
     size: 20px;
   }
   
-  img {
-    width: 50px; /* you can use % */
-    height: auto;
-    margin-bottom: 5px;
-    margin-left: 15px;
-  }
   
   .footer-research a {
     color: white;
